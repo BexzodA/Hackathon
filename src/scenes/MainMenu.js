@@ -28,6 +28,6 @@ class MainMenu {
     }
 
     nextScene() {
-        transitionToScene(this, new Scene1(this.stage));
+        transitionToScene(this, new GoBorH(this.stage));
     }
 }
