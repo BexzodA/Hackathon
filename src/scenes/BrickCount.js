@@ -3,7 +3,7 @@ class BrickCount {
     constructor(_stage) {
         this.scene = new PIXI.Container();
 
-        const text2 = new PIXI.Text('2.\tRoughly how many bricks are on the RIT Henrietta campus?');
+        const text2 = new PIXI.Text('Roughly how many bricks are on the RIT Henrietta campus?');
         text2.style.fill = 0xffffff; // 0xff0000 is the hex code for red
         this.scene.addChild(text2);
 
