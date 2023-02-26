@@ -1,9 +1,9 @@
 
-class Scene2 {
+class MunsonBurger {
     constructor(_stage) {
         this.scene = new PIXI.Container();
 
-        const text3 = new PIXI.Text('This is scene 3');
+        const text3 = new PIXI.Text('Find the imposter');
         text3.style.fill = 0xffffff; // 0xff0000 is the hex code for red
         this.scene.addChild(text3);
 

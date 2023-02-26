@@ -107,7 +107,7 @@ class BrickCount {
     }
 
     nextScene() {
-        transitionToScene(this, new Scene2(this.stage));
+        transitionToScene(this, new Suspect(this.stage));
     }
 
     gameOver() {
