@@ -34,7 +34,7 @@ class GoBorH {
     }
 
     nextScene() {
-
+        transitionToScene(this, new BrickCount(this.stage));
     }
 
     gameOver() {
