@@ -9,7 +9,7 @@ class BrickCount {
 
         this.stage = _stage;
 
-        let playButtonLabel1 = PIXI.Sprite.from("../imgs/Button.png");
+        let playButtonLabel1 = PIXI.Sprite.from("./imgs/Button.png");
         playButtonLabel1.x = 25;
         playButtonLabel1.y = 300;
         playButtonLabel1.width = 350;
@@ -21,7 +21,7 @@ class BrickCount {
         playButtonLabel1.on("pointerout", e => e.currentTarget.alpha = 1.0);
         this.scene.addChild(playButtonLabel1);
         
-        let playButtonLabel2 = PIXI.Sprite.from("../imgs/Button.png");
+        let playButtonLabel2 = PIXI.Sprite.from("./imgs/Button.png");
         playButtonLabel2.x = 425;
         playButtonLabel2.y = 300;
         playButtonLabel2.width = 350;
@@ -34,7 +34,7 @@ class BrickCount {
         this.scene.addChild(playButtonLabel2);
         
 
-        let playButtonLabel3 = PIXI.Sprite.from("../imgs/Button.png");
+        let playButtonLabel3 = PIXI.Sprite.from("./imgs/Button.png");
         playButtonLabel3.x = 25;
         playButtonLabel3.y = 450;
         playButtonLabel3.width = 350;
@@ -46,7 +46,7 @@ class BrickCount {
         playButtonLabel3.on("pointerout", e => e.currentTarget.alpha = 1.0);
         this.scene.addChild(playButtonLabel3);
 
-        let playButtonLabel4 = PIXI.Sprite.from("../imgs/Button.png");
+        let playButtonLabel4 = PIXI.Sprite.from("./imgs/Button.png");
         playButtonLabel4.x = 425;
         playButtonLabel4.y = 450;
         playButtonLabel4.width = 350;

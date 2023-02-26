@@ -19,7 +19,7 @@ class Suspect {
 
         
 
-        let sussy = PIXI.Sprite.from("../imgs/Button.png");
+        let sussy = PIXI.Sprite.from("./imgs/Button.png");
         sussy.x = 115;
         sussy.y = 252;
         sussy.width = 100;

@@ -20,7 +20,7 @@ function transitionToScene(from, to) {
 function setup() {
     stage = app.stage;
 
-    const bg = PIXI.Sprite.from("../imgs/background.png");
+    const bg = PIXI.Sprite.from("./imgs/background.png");
     bg.x = 0;
     bg.y = 0;
     bg.width = 800;

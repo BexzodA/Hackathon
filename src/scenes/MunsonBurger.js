@@ -9,7 +9,7 @@ class MunsonBurger {
 
         this.stage = _stage;
 
-        let playButtonLabel1 = PIXI.Sprite.from("../imgs/Pastrami.png");
+        let playButtonLabel1 = PIXI.Sprite.from("./imgs/Pastrami.png");
         playButtonLabel1.x = 25;
         playButtonLabel1.y = 40;
         playButtonLabel1.width = 350;
@@ -21,7 +21,7 @@ class MunsonBurger {
         playButtonLabel1.on("pointerout", e => e.currentTarget.alpha = 1.0);
         this.scene.addChild(playButtonLabel1);
         
-        let playButtonLabel2 = PIXI.Sprite.from("../imgs/Swiss.png");
+        let playButtonLabel2 = PIXI.Sprite.from("./imgs/Swiss.png");
         playButtonLabel2.x = 425;
         playButtonLabel2.y = 40;
         playButtonLabel2.width = 350;
@@ -34,7 +34,7 @@ class MunsonBurger {
         this.scene.addChild(playButtonLabel2);
         
 
-        let playButtonLabel3 = PIXI.Sprite.from("../imgs/Coleslaw.png");
+        let playButtonLabel3 = PIXI.Sprite.from("./imgs/Coleslaw.png");
         playButtonLabel3.x = 25;
         playButtonLabel3.y = 320;
         playButtonLabel3.width = 350;
@@ -46,7 +46,7 @@ class MunsonBurger {
         playButtonLabel3.on("pointerout", e => e.currentTarget.alpha = 1.0);
         this.scene.addChild(playButtonLabel3);
 
-        let playButtonLabel4 = PIXI.Sprite.from("../imgs/Bacon.png");
+        let playButtonLabel4 = PIXI.Sprite.from("./imgs/Bacon.png");
         playButtonLabel4.x = 425;
         playButtonLabel4.y = 320;
         playButtonLabel4.width = 350;60

@@ -4,14 +4,14 @@ class MainMenu {
         this.mainMenu = new PIXI.Container();
         this.stage = _stage;
 
-        let title = PIXI.Sprite.from("../imgs/title.png");
+        let title = PIXI.Sprite.from("./imgs/title.png");
         title.x = 4;
         title.y = 3;
         title.width = 792;
         title.height = 593;
         this.mainMenu.addChild(title);
 
-        let playButtonLabel = PIXI.Sprite.from("../imgs/playButton.png");
+        let playButtonLabel = PIXI.Sprite.from("./imgs/playButton.png");
         playButtonLabel.x = 300;
         playButtonLabel.y = 450;
         playButtonLabel.buttonMode = true;
